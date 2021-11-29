@@ -1,6 +1,124 @@
-.color_orenge{
-    color: #EE9617;
+.color_orenge {
+  color: #ee9617;
 }
-.header_top{
-    height: 46px;
+.header_top {
+  height: 46px;
+}
+/* HOME PAGE */
+
+.home_pic {
+  background-image: url(./pictures/Path\ 1.png);
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 37rem;
+  width: auto;
+  position: relative;
+}
+.navbar-brand {
+  color: white;
+  font-size: 28px;
+}
+.navbar-brand:hover {
+  color: #d44800;
+}
+.nav-link {
+  color: white;
+  font-size: 18px;
+}
+.nav-link:hover {
+  color: #d44800;
+}
+.try_btn {
+  padding: 10px;
+  color: white;
+  background-color: #d44800;
+  border-radius: 25px;
+  box-shadow: 3px -1px 5px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 3px -1px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 3px -1px 5px 0px rgba(0, 0, 0, 0.75);
+}
+.try_btn:hover {
+  background-color: white;
+  color: #d44800;
+}
+
+.home_text_col {
+  color: white;
+  margin-top: 88px;
+  margin-left: 29px;
+}
+.home_text_col h1 {
+  font-size: 55px;
+}
+.image_home_repeat {
+  margin-top: 66px;
+  height: 222px;
+}
+.btn-left {
+  margin-top: 70px;
+  padding: 10px 20px 10px 20px;
+  color: white;
+  background-color: transparent;
+  border-style: solid;
+  border-radius: 50px;
+  border-color: white;
+}
+.btn-right {
+  margin-top: 70px;
+  padding: 10px 20px 10px 20px;
+  color: #d44800;
+  margin-left: 12px;
+  border-style: solid;
+  border-radius: 50px;
+  box-shadow: 0px 5px 17px -1px rgba(0, 0, 0, 0.76);
+  -webkit-box-shadow: 0px 5px 17px -1px rgba(0, 0, 0, 0.76);
+  -moz-box-shadow: 0px 5px 17px -1px rgba(0, 0, 0, 0.76);
+  background-color: white;
+}
+.btn-left:hover {
+  color: #d44800;
+  background-color: white;
+}
+.btn-right:hover {
+  color: white;
+  background-color: transparent;
+}
+
+.home_vector {
+  width: 270px;
+  height: 240px;
+  position: absolute;
+}
+
+.vecto1 {
+  left: 720px;
+  top: 212px;
+  border-bottom-color: #fe5858;
+  border-right-color: #fe5858;
+  border-top-color: white;
+  border-left-color: white;
+
+  border-style: solid;
+}
+.vecto2 {
+  left: 797px;
+  top: 140px;
+  background-color: white;
+  border-radius: 12px;
+  border-color: #fe5858;
+  border-style: solid;
+}
+.vecto3 {
+  left: 540px;
+  top: 279px;
+  background-color: white;
+  border-radius: 12px;
+  border-color: #fe5858;
+  border-style: solid;
+}
+.right_repeat {
+  position: absolute;
+  left: 1241px;
+  top: 279px;
 }
